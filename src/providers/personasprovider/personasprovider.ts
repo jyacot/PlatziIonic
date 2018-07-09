@@ -15,7 +15,7 @@ export class PersonasproviderProvider {
   }
 
   getUsers(){
-    return this.http.get(this.JSON_PLACEHOLDER_URL+"users/")
+    return []
   }
 
 }

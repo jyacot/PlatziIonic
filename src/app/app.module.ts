@@ -8,12 +8,16 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PersonasproviderProvider } from '../providers/personasprovider/personasprovider';
 import { PersonasPage } from '../pages/personas/personas';
+import { TabsPage } from '../pages/tabs/tabs';
+import { AboutPage } from '../pages/about/about';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    PersonasPage
+    PersonasPage,
+    TabsPage,
+    AboutPage
   ],
   imports: [
     BrowserModule,
@@ -23,7 +27,9 @@ import { PersonasPage } from '../pages/personas/personas';
   entryComponents: [
     MyApp,
     HomePage,
-    PersonasPage
+    PersonasPage,
+    TabsPage,
+    AboutPage
   ],
   providers: [
     StatusBar,
